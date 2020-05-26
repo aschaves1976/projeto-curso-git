@@ -1,0 +1,28 @@
+## GIT Comandos Básicos ##
+
+Para editar o seu README.md utilize um editor Markdown -> https://pandao.github.io/editor.md/en.html
+
+################################################################################################################################################################
+git init                                     #  => Inicializar um repositório local dentro de uma estrutura
+git clone                                    #  => Obter uma estrutura de projeto de um repositório remoto
+git add . ou git add <<nome_arquivo>>        #  => Adicionar arquivos, "git add ." adciona todos os arquivos
+git -m 'mensagem descritiva de commit'       #  => Salvar todas as alterações realizadas em um ou mais arquivos do repositório
+git push                                     #  => Publicar as alterações em um repositório remoto (nuvem)
+git pull                                     #  => Atualiza o repositório local coforme o repositório remoto
+git merge <<nome_branch_contem_alteracoes>>  #  => Mesclar as alterações de uma branch, a uma branch ativa, por exemplo a branch Master.
+git status                                   #  => Provém informações do estado atual do repositório
+git log                                      #  => Provém um historico das ações dentro do repositório
+git branch <<nome_branch>>                   #  => Cria um novo ramo no repositório local, mantendo a referencia do origin para a branch default(Master).
+                                                   No git init é criado o ramo MASTER, que é o principal.
+git checkout -b <<nome_branch>>              #  => Cria a nova branch e já troca a referencia do origin para a nova branch criada.
+git branch                                   #  => Mostra uma coleção de branches criadas no repositório.
+git checkout <<nome_branch_que_deseja>>      #  => Trocar de branch.
+git branch -D <<nome_branch>>                #  => Deleta uma branch.
+git remote add origin <<url_repositorio>>    #  => Adicionar o conteúdo de uma origem remota
+git remote rm origin                         #  => Exclui o conteúdo de uma origem remota.
+git push -u origin master                    #  => Iguala o repositório local com o repositório remoto. A opção -u solicita usuário/senha da conta do github.
+git push origin <<nome_branch>>              #  => Disponibiliza no repositório remoto a branch com as alterações efetuadas.
+#################################################################################################################################
+https://git-scm.com/docs
+
+
