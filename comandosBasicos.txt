@@ -1,6 +1,7 @@
 ## GIT Comandos Básicos ##
 
 Para editar o seu README.md utilize um editor Markdown -> https://pandao.github.io/editor.md/en.html
+Para adicionar uma imagem no seu README.md, hospede sua imagem em https://imgur.com/ e sem seguida cole o link da mesma no arquivo.
 
 ################################################################################################################################################################
 git init                                     #  => Inicializar um repositório local dentro de uma estrutura
